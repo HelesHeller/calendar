@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgba(21, 223, 21, 0.46);
+}
+th, td {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+td.weekend {
+    background-color: rgba(223, 148, 35, 0.76); /* Цвет фона для выходных дней */
+}
+
+
